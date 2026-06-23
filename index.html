@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kanju — Learn Chinese with the Donghua & C-Dramas You Already Love</title>
+<style>
+  :root{--bg:#0f1115;--card:#171a21;--ink:#f3f4f6;--mut:#9aa3b2;--accent:#e23744;--accent2:#ffb703;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Microsoft Yahei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+  header{padding:72px 0 40px;text-align:center}
+  .badge{display:inline-block;font-size:13px;letter-spacing:.4px;color:var(--accent2);border:1px solid #3a3f4b;border-radius:999px;padding:6px 14px;margin-bottom:24px}
+  h1{font-size:40px;line-height:1.15;font-weight:800;margin-bottom:18px}
+  h1 span{color:var(--accent)}
+  .sub{font-size:19px;color:var(--mut);max-width:600px;margin:0 auto 32px}
+  .btn{display:inline-block;padding:14px 26px;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;font-size:16px;cursor:pointer;text-decoration:none}
+  .btn:hover{opacity:.92}
+  .micro{font-size:13px;color:var(--mut);margin-top:12px}
+  section{padding:44px 0;border-top:1px solid #20242d}
+  h2{font-size:24px;margin-bottom:20px}
+  .pain li,.feat li{list-style:none;padding:14px 0 14px 34px;position:relative;color:#d7dbe3}
+  .pain li:before{content:"✕";position:absolute;left:0;color:var(--accent);font-weight:700}
+  .feat li:before{content:"✓";position:absolute;left:0;color:#39d353;font-weight:700}
+  .demo{background:var(--card);border:1px solid #262b35;border-radius:12px;padding:20px;font-size:17px}
+  .demo .zh{font-size:22px}
+  .tok{display:inline-block;margin:4px 6px 4px 0;background:#0c0e12;border:1px solid #2b303b;border-radius:8px;padding:4px 10px}
+  .tok b{color:var(--accent2);font-weight:600}
+  .tok small{color:var(--mut);display:block;font-size:12px}
+  .join{background:var(--card);border:1px solid #262b35;border-radius:14px;padding:28px}
+  label.q{display:block;font-weight:700;margin:22px 0 12px}
+  input[type=email],input[type=text],textarea{width:100%;padding:14px 16px;border-radius:10px;border:1px solid #2b303b;background:#0c0e12;color:var(--ink);font-size:16px;font-family:inherit}
+  textarea{min-height:70px;resize:vertical}
+  .hp{position:absolute;left:-9999px}
+  .opts{display:grid;gap:10px}
+  .opt{display:flex;align-items:center;gap:12px;border:1px solid #2b303b;border-radius:10px;padding:13px 15px;cursor:pointer;background:#0c0e12}
+  .opt:hover{border-color:#3a4150}
+  .opt input{accent-color:var(--accent);width:18px;height:18px}
+  .opt .n{font-weight:700}
+  .opt .d{color:var(--mut);font-size:14px}
+  .join .btn{width:100%;margin-top:24px;text-align:center}
+  footer{padding:50px 0 70px;text-align:center;color:var(--mut);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="badge">For learners stuck between HSK 3 and real fluency</div>
+    <h1>You can follow the subtitles. <span>You still can't follow the show.</span></h1>
+    <p class="sub">Kanju helps you learn Chinese with the donghua and C-dramas you already love — built native-first, tuned for slang and real speech, designed for the intermediate wall where every other app runs out of material.</p>
+    <a class="btn" href="#join">Get early access ↓</a>
+    <p class="micro">Join the waitlist. No spam — just one email when the beta opens.</p>
+  </header>
+
+  <section>
+    <h2>Why the apps you've tried let you down</h2>
+    <ul class="pain">
+      <li>Beginner apps teach you 500 words, then leave you stranded — real shows are still a wall of noise.</li>
+      <li>Generic pop-up dictionaries butcher slang, names, and 网络用语 ("封神", "破防", "嘴替") — exactly the words that make a show fun.</li>
+      <li>Pinyin missing on the platforms you actually watch; no simplified/traditional toggle for Taiwanese shows.</li>
+      <li>Nothing tells you <em>which</em> donghua or drama matches your level — so you bounce off things that are too hard.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What we're building instead</h2>
+    <ul class="feat">
+      <li><strong>Native-quality word breakdown.</strong> Segmentation, pinyin, and tones tuned by a native speaker for slang and casual speech — not a generic engine that splits 别装了 wrong.</li>
+      <li><strong>Level-matched picks.</strong> "What should I watch next" based on your actual vocabulary, built to carry you through the intermediate plateau.</li>
+      <li><strong>One-click review.</strong> Save any line to spaced-repetition cards with audio and screenshot, straight from the scene.</li>
+      <li><strong>Works on the platforms you use</strong> for donghua and C-dramas — not a tiny walled library.</li>
+    </ul>
+
+    <div class="demo" style="margin-top:18px">
+      <div class="zh">你这家伙果然还是没搞懂修仙的真谛。</div>
+      <div style="margin-top:12px">
+        <span class="tok"><b>家伙</b><small>jiā huo · guy</small></span>
+        <span class="tok"><b>果然</b><small>guǒ rán · as expected</small></span>
+        <span class="tok"><b>修仙</b><small>xiū xiān · cultivation</small></span>
+        <span class="tok"><b>真谛</b><small>zhēn dì · true meaning</small></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="join">
+    <h2>Get early access</h2>
+    <p style="color:var(--mut);margin-bottom:8px">Core lookups will be free. Help us decide what to build first — and be honest about the price.</p>
+
+    <form class="join" action="/api/submit" method="POST">
+      <!-- honeypot anti-spam: 真人看不到,机器人会填 -->
+      <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+
+      <label class="q" for="email">Your email</label>
+      <input id="email" type="email" name="email" placeholder="your@email.com" required />
+
+      <label class="q">If this worked well, which would you actually pay?</label>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="would_pay" value="free_only" required><span><span class="n">I'd only use it if free</span> <span class="d">— I won't pay for this</span></span></label>
+        <label class="opt"><input type="radio" name="would_pay" value="9_mo"><span><span class="n">$9 / month</span> <span class="d">— leveling + SRS + slang accuracy</span></span></label>
+        <label class="opt"><input type="radio" name="would_pay" value="14_mo"><span><span class="n">$14 / month</span> <span class="d">— everything + offline export</span></span></label>
+        <label class="opt"><input type="radio" name="would_pay" value="already_pay_other"><span><span class="n">I already pay for a tool like this</span> <span class="d">(Migaku / Lingopie / Lexirise…)</span></span></label>
+      </div>
+
+      <label class="q" for="switch">What would make you switch from a free tool? (optional)</label>
+      <textarea id="switch" name="what_would_make_me_switch" placeholder="e.g. accurate slang, knowing what's at my level, better flashcards…"></textarea>
+
+      <label class="q" for="level">Your level (optional)</label>
+      <input id="level" type="text" name="level" placeholder="e.g. HSK 4, ~2 years, can watch with subs but lost without" />
+
+      <button class="btn" type="submit">Join the waitlist</button>
+    </form>
+  </section>
+
+  <footer>
+    Kanju · made by a native speaker + donghua fan who got tired of bouncing off the intermediate wall.<br/>
+    © 2026
+  </footer>
+
+</div>
+</body>
+</html>
